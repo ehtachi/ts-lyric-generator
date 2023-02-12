@@ -8,6 +8,7 @@
     font-family: 'Caveat', cursive;
     font-size: 3rem;
 }
+
 .description{
     font-family: 'Jost', sans-serif;
     font-size: 2rem;
@@ -43,7 +44,15 @@ body{
     background-color: darkorange;
     border-radius: 1rem;
     color: white;
+    transition: all 0.4s;
 }
+
+#btn:hover{
+    background-color: rgb(255, 111, 0);
+    width: 15rem;
+    border-radius: 0.5rem;
+}
+
 
 .info{
     min-height: 10vh;
